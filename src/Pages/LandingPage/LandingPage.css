@@ -1,0 +1,56 @@
+.landing-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+.landing-page-header {
+  background: rgba(243, 243, 242, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  color: #000000;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.doctor-image {
+  background-image: url('https://images.pexels.com/photos/7966285/pexels-photo-7966285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image path */
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  margin: 20px auto;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.doctor-info {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.cta-button {
+  margin: 0 10px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  display: flex;
+  gap: 10px;
+}
+
+.cta-button:hover {
+  background-color: #005ea6;
+}
+
+.material-icons {
+  vertical-align: middle;
+}

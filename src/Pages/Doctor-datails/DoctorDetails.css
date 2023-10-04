@@ -1,0 +1,70 @@
+.custom-doctor-details-container {
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.custom-doctor-image {
+  max-width: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-doctor-details {
+  flex-grow: 1;
+}
+
+.custom-heading-1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.custom-heading-2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.custom-heading-3 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-list-item {
+  margin-bottom: 5px;
+}
+
+.custom-paragraph {
+  margin: 10px 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.book-appointment-button-details {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-appointment-button-details:hover {
+  background-color: #0056b3;
+}

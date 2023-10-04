@@ -1,0 +1,93 @@
+.fromBg {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.select-input,
+.text-input,
+.date-input,
+.time-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.select-input:hover,
+.text-input:hover,
+.date-input:hover,
+.time-input:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-input {
+  padding-left: 34px;
+}
+
+.select-input option {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.select-input option:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.error-message {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
